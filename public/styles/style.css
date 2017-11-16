@@ -24,23 +24,29 @@ p {
 }
 
 .portion.one {
-    background-image: url('https://s3-us-west-2.amazonaws.com/joshanddarian.com/images/01.jpg');
+    background-image: url('../images/01.jpg');
 }
 
 .portion.two {
-    background-image: url('https://s3-us-west-2.amazonaws.com/joshanddarian.com/images/02.jpg');
+    background-image: url('../images/02.jpg');
 }
 
 .portion.three {
-    background-image: url('https://s3-us-west-2.amazonaws.com/joshanddarian.com/images/03.jpg');
+    background-image: url('../images/03.jpg');
     background-color: #2f4f90;
 }
 
 .portion.four {
-    background-image: url('https://s3-us-west-2.amazonaws.com/joshanddarian.com/images/04.jpg');
-    background-color: #2f4f90;
-    padding: 5em 0;
+    padding-top: 10px;
 }
+
+/*.portion.four {*/
+    /*background-image: url('../images/04.jpg');*/
+    /*background-color: #2f4f90;*/
+    /*padding: 8em 0;*/
+    /*text-align: center;*/
+
+/*}*/
 
 .portion.four h2 {
     color: white;
@@ -110,7 +116,7 @@ footer.info {
 }
 .bedBath {
     width: 30%;
-    padding: 1.5em 3.05em;
+    padding: 1em 3.05em;
 }
 
 /*=======================*/
@@ -142,16 +148,19 @@ and (-webkit-min-device-pixel-ratio: 2) {
     }
 
     .portion.two {
-        background-image: url('https://s3-us-west-2.amazonaws.com/joshanddarian.com/images/02-iPhone.jpg');
+        background-image: url('../images/02-iPhone.jpg');
     }
 
     .portion.three {
-        background-image: url('https://s3-us-west-2.amazonaws.com/joshanddarian.com/images/03-iPhone.jpg');
+        background-image: url('../images/03-iPhone.jpg');
     }
 
-    .portion.four {
-        background-image: url("https://s3-us-west-2.amazonaws.com/joshanddarian.com/images/04-iPhone.jpg");
-    }
+    /*.portion.four {*/
+        /*background-image: url("../images/08.jpg");*/
+        /*background-size: cover;*/
+        /*background-attachment: scroll;*/
+        /*padding: 8em 0;*/
+    /*}*/
 
     h2 {
         font-size: 20px;
