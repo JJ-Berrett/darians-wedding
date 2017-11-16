@@ -18,23 +18,23 @@ p{
 
 .portion {
 
-    background-image: url('../images/01.jpg');
+    background-image: url('https://s3-us-west-2.amazonaws.com/joshanddarian.com/images/01.jpg');
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
     text-align: center;
 }
 .portion.two {
-    background-image: url('../images/02.jpg');
+    background-image: url('https://s3-us-west-2.amazonaws.com/joshanddarian.com/images/02.jpg');
 }
 
 .portion.three {
-    background-image: url('../images/03.jpg');
+    background-image: url('https://s3-us-west-2.amazonaws.com/joshanddarian.com/images/03.jpg');
     background-color: #2f4f90;
 }
 
 .portion.four {
-    background-image: url('../images/04.jpg');
+    background-image: url('https://s3-us-west-2.amazonaws.com/joshanddarian.com/images/04.jpg');
     background-color: #2f4f90;
     padding: 5em 0;
 }
@@ -98,13 +98,12 @@ footer.info {
 
 .amazon {
     width: 30%;
-    padding: 1.5em 4em;
+    padding: 1em 3.25em;
 }
 .bedBath {
     width: 30%;
-    padding: 1.5em 4em;
+    padding: 1.5em 3.25em;
 }
-
 
 /*/*=======================*/
 /*/*Iphone 6+, 6s+, 7+, 8+ */
@@ -121,10 +120,10 @@ and (-webkit-min-device-pixel-ratio: 2) {
         font-size: 20px;
     }
     .portion.two {
-        background-image: url('../images/02-iPhone.jpg');
+        background-image: url('https://s3-us-west-2.amazonaws.com/joshanddarian.com/images/02-iPhone.jpg');
     }
     .portion.three {
-        background-image: url('../images/03-iPhone.jpg');
+        background-image: url('https://s3-us-west-2.amazonaws.com/joshanddarian.com/images/03-iPhone.jpg');
     }
     h2 {
         font-size: 20px;
@@ -145,6 +144,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
     }
 }
 
+
 /*/*=======================*/
 /*/*Iphone 6, 6s, 7, 8 */
 /*/*=======================*/
@@ -161,10 +161,10 @@ and (-webkit-min-device-pixel-ratio: 2)
         font-size: 20px;
     }
     .portion.two {
-        background-image: url('../images/02-iPhone.jpg');
+        background-image: url('https://s3-us-west-2.amazonaws.com/joshanddarian.com/images/02-iPhone.jpg');
     }
     .portion.three {
-        background-image: url('../images/03-iPhone.jpg');
+        background-image: url('https://s3-us-west-2.amazonaws.com/joshanddarian.com/images/03-iPhone.jpg');
     }
     h2 {
         font-size: 20px;
@@ -201,10 +201,10 @@ and (-webkit-min-device-pixel-ratio: 2) {
         font-size: 20px;
     }
     .portion.two {
-        background-image: url('../images/02-iPhone.jpg');
+        background-image: url('https://s3-us-west-2.amazonaws.com/joshanddarian.com/images/02-iPhone.jpg');
     }
     .portion.three {
-        background-image: url('../images/03-iPhone.jpg');
+        background-image: url('https://s3-us-west-2.amazonaws.com/joshanddarian.com/images/03-iPhone.jpg');
     }
     h2 {
         font-size: 20px;
